@@ -8,8 +8,17 @@ for num in my_list:
     if num %8 ==0:
         print(num, " : 8 in katidir")
 
-num = int(input("Enter number : "))
-print("Entered number :", num)
 
-
+#yaşi integer olarak dogru girene kadar sormasi icin
+while True:
+    try:
+        myAge = int(input("enter age :"))
+        print(myAge * 2)
+        break
+    except:
+        print("enter your age !!!")
+    else:
+        print("else executed")
+    finally:
+        print("finanlly")
 

@@ -8,5 +8,8 @@ for num in my_list:
     if num %8 ==0:
         print(num, " : 8 in katidir")
 
+num = int(input("Enter number : "))
+print("Entered number :", num)
+
 
 

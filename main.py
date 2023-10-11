@@ -19,6 +19,6 @@ while True:
         print("enter your age !!!")
     else:
         print("else executed")
-    finally:
-        print("finanlly")
+#    finally:
+#       print("finanlly")
 
